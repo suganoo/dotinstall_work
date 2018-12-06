@@ -19,6 +19,8 @@ textarea {
   font-size: 16px;
   border: none;
   border-radius: 5px;
+  margin-bottom: 14px;
+  line-height: 1.5;
 }
 
 textarea:focus {
@@ -28,6 +30,8 @@ textarea:focus {
 p {
   color: #333;
   font-size: 14px;
+  margin: 0;
+  padding-top: 8px;
 }
 
 #label {
@@ -44,4 +48,9 @@ p {
   text-align: center;
   cursor: pointer;
   box-shadow: 0 4px 0 #0088cc;
+  float: right;
+}
+
+.warning {
+  color: red;
 }
